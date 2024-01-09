@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>PayloadContent</key>
+    <array>
+        <dict>
+            <key>PayloadType</key>
+            <string>com.apple.application-identifier</string>
+            <key>PayloadVersion</key>
+            <integer>1</integer>
+            <key>PayloadIdentifier</key>
+            <string>com.example.app</string>
+            <key>PayloadUUID</key>
+            <string>unique-identifier-here</string>
+            <key>PayloadDisplayName</key>
+            <string>MyApp</string>
+            <key>PayloadDescription</key>
+            <string>Installs MyApp</string>
+            <key>PayloadContent</key>
+            <dict>
+                <key>ApplicationPath</key>
+                <string>http://example.com/MyApp.ipa</string>
+                <key>SigningIdentity</key>
+                <string>iPhone Developer</string>
+            </dict>
+        </dict>
+    </array>
+    <key>PayloadDisplayName</key>
+    <string>Install MyApp</string>
+    <key>PayloadIdentifier</key>
+    <string>com.example.installMyApp</string>
+    <key>PayloadRemovalDisallowed</key>
+    <false/>
+    <key>PayloadType</key>
+    <string>Configuration</string>
+    <key>PayloadUUID</key>
+    <string>unique-identifier-here</string>
+    <key>PayloadVersion</key>
+    <integer>1</integer>
+</dict>
+</plist>
