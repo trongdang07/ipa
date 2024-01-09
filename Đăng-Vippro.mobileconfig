@@ -20,7 +20,7 @@
             <key>PayloadContent</key>
             <dict>
                 <key>ApplicationPath</key>
-                <string>http://example.com/MyApp.ipa</string>
+                <string>https://www.mediafire.com/file/z7yol9ogxhvdyzx/Đăng+Vippro.ipa</string>
                 <key>SigningIdentity</key>
                 <string>iPhone Developer</string>
             </dict>
